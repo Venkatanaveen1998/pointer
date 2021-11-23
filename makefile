@@ -1,9 +1,9 @@
 CC=gcc
-final:swapcondition.o swap.o
+final:2darray.o 2darraycondition.o
 	$(CC) $^ -o $@
-swapcondition.o:swapcondition.c
+2darray.o:2darray.c
 	$(CC) -c $<
-swap.o:swap.c
+2darraycondition.o:2darraycondition.c
 	$(CC) -c $<
 clean:
 	rm -f *.o final

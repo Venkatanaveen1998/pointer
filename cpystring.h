@@ -1,0 +1,1 @@
+void stringcopy(char *,char *);
